@@ -186,6 +186,7 @@ public class ClientPanel extends JPanel implements ClientChangeListener {
         this.scrollPane.setEnabled(true);
         this.sendButton.setEnabled(true);
         this.messageField.requestFocus();
+        this.chatArea.append("SERVER : " + username + " has joined the server");
     }
 
 
